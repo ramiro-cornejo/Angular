@@ -2,10 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ContadorComponent } from './contador.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    // adjuntar nombre de componente para ser renderizado
+    AppComponent,
+    ContadorComponent
   ],
   imports: [
     BrowserModule

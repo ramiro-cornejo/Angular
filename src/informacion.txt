@@ -18,4 +18,8 @@ ng g c direccion/nombre --skipTests (no instala test)
 // GENERAR BUILD DE PRODUCCION
 - Primera limpiar codigo como buena practica
 
-ng build --configuration production
+ng build --configuration production 
+
+// Desplegando en Netlify
+
+https://listado-test.netlify.app/

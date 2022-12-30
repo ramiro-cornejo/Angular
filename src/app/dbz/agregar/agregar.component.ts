@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Personaje } from '../interfaces/dbz.interface';
 import { DbzService } from '../services/dbz.service';
 
@@ -23,7 +23,6 @@ export class AgregarComponent {
       return;
     }
 
-    //this.onNuevoPersonaje.emit( this.nuevo );
     this.dbzService.agregarPersonaje( this.nuevo );
 
     this.nuevo = {
@@ -33,6 +32,5 @@ export class AgregarComponent {
   }
 }
 
-// Depuracion de app 
-// 1- .vscode 2- launch.json 3- localhost 4- f5 para probar con breakPoint
+
 

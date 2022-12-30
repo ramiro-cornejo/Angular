@@ -1,0 +1,21 @@
+ng new nombreproyecto (crea proyecto)
+
+ng serve -o (run proyecto)
+
+ng g c direccion/nombreCarpeta (crea componente)
+
+ng g m nombreCarpeta (crea modulo)
+
+ng g c direccion/nombre --skipTests (no instala test)
+
+<!-- ng-template muestra contenido referido a la condicion -->
+<!-- Directiva *ngIf -->
+<!-- Directiva *ngFor para duplicar elementos en el html -->
+
+// Depuracion de app 
+1- .vscode 2- launch.json 3- localhost 4- f5 para probar con breakPoint
+
+// GENERAR BUILD DE PRODUCCION
+- Primera limpiar codigo como buena practica
+
+ng build --configuration production

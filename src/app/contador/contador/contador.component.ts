@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-// Creando componente manualmente
-
 @Component({
     selector: 'app-contador',
     template: `

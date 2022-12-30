@@ -11,7 +11,6 @@ import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
     declarations: [
-        // adjuntar nombre de componente para ser renderizado
         AppComponent,
     ],
     providers: [],
